@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "thoughts on a small project"
+date:   2015-12-30
+categories: api, rest, python, flask
+---
+
+Agreed to work on a small personal project again and I want to get my ideas down.
+Goal: A RESTful API.  Surprise :p
+
+- Target OS: CentOS 7
+- Target Host: Unknown yet; possibly Heroku (PAAS) or AWS EC2 (IAAS)
+- Target language: Python
+- Target framework: Flask
+- Repo: GitHub
+- Continuous Integration: TravisCI or Jenkins
+- Configuration Management: Ansible
+- Monitoring/Alerting: Nagios
+- Performance Tuning: Graphite
+- Project Management: Asana or Trello for Kanban board
+- Persistence:  
+- Postgre SQL if there is any necessary relational data.  At minimum, User Management will always be a relational bit of data.
+- Neo4J if there's any data mining.
+- CouchDB/PouchDB for any required session state cache between server and mobile application.
+
+Trying to capture the entire project picture is a bit messy, but I'm attempting to hold in my mind all the discrete bits of effort that go into a coding project that's intended to be used in a production way.
+
+I'm always thinking about the bottom line.  When I work with enterprises, they often don't consider cost.  Over time I realized that the top level technical manager often has no budget or financial experience or training and was not the original author of the budget he or she was handed and has no interest in managing vendor relationships.  
+When I work with individual clients, cost is *always* on the top of their mind.  So, one way or another, it pays (literally) to be mindful of the financial and intellectual property costs that you are incurring in your architecture; whether infrastructure or software.
+
+Over time, if you have the pleasure of spending 6 months of a year negotiating with Microsoft or Oracle license vendor 3rd party specialists...  you just naturally learn to avoid getting into a position where you ever have to deal with that sort of thing.  The people are nice, the software is great, but the licensing process and lump sum you owe annually... it's murder.
