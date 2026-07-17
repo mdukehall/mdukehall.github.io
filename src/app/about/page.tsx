@@ -31,7 +31,7 @@ export default function AboutPage() {
         <ul>
           <li>Games, systems, and weird little side projects</li>
           <li>Retro UX — IRC, terminals, phosphor green on black</li>
-          <li>Mobile + web — currently shipping things like BloomCore</li>
+          <li>Mobile + web side projects</li>
         </ul>
       </section>
 
